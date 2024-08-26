@@ -1,0 +1,20 @@
+{
+    "name": "drupal_recipe/ezcontent-liveblog-recipe",
+    "description": "Integrates Liveblog with EZContent",
+    "type": "drupal-recipe",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-liveblog"
+        }
+    ],
+    "require": {
+        "drupal/ezcontent_liveblog": "dev-main",
+        "drupal/liveblog": "^2.0@alpha"
+    },
+    "license": "GPL-2.0-or-later"
+}

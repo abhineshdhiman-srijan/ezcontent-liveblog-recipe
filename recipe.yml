@@ -1,0 +1,13 @@
+name: 'Liveblog Feature'
+description: "Integrates Liveblog with EZContent"
+# note, that this needs to be plural:
+# recipes:
+#   - ezcontent-paragraphs
+install:
+  - ezcontent_liveblog
+  - liveblog_pusher
+
+config:
+  import:
+    liveblog: '*'
+    ezcontent_liveblog: '*'
